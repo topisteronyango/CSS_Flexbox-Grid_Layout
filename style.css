@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+header{
+    justify-content: center;
+    text-align: center;
+
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
+
+.para{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-top: 0px;
+
+}
+
+.hd{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    padding-left: 20px;
+
+}
+
+main{
+    width:50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+    
+}
+
+img{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.Sedans{
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.Suvs{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+.btn-1{
+    align-items: center;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 8px; 
+    border: 0px;
+    width: 100px;
+}
+
+.btn-2{
+    align-items: center;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 8px; 
+    border: 0px;
+    width: 100px;
+}
+
+.btn-3{
+    align-items: center;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 8px; 
+    border: 0px;
+    width: 100px;
+}
